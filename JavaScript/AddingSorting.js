@@ -14,4 +14,4 @@ const array2 = [1, 5, 9];
 const result = joinAndSortArrays(array1, array2);
 
 // Output the result
-console.log("Joined and sorted array:", result);
+console.log("Joined and sorted array:\n", result);

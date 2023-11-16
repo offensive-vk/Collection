@@ -17,4 +17,4 @@ const resultArray = removeDuplicates(inputArray);
 
 // Output the result
 console.log("Original Array: \n", inputArray);
-console.log("Array with Duplicates Removed:", resultArray);
+console.log("Array with Duplicates Removed: \n", resultArray);
