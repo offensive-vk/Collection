@@ -1,3 +1,6 @@
+/**
+ * create a happyBirthday function in JavaScript that takes a date as a parameter, checks if the current date is your birthday, and prints a birthday message or the remaining days until your next birthday. 
+ */
 function isPrime(num) {
     for (let i = 2; i <= Math.sqrt(num); i++) {
         if (num % i === 0) {
