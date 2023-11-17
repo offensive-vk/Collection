@@ -1,6 +1,6 @@
 /**
  * Move all 0's to the end of the array without using sort(),  iterate through the array and reorder the elements accordingly. 
- * @param {*} numbers 
+ * @param {*} numbers number array to operate on.
  */
 function moveZerosToEnd(numbers) {
     let nonZeros = numbers.filter(num => num !== 0);
