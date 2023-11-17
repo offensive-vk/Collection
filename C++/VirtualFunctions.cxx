@@ -66,6 +66,7 @@ int Student::t_id = 0;
 int main(void)
 {
     int n, val;
+    cout << "Number of Objects : " << endl;
     cin >> n; //The number of objects that is going to be created.
     Person *per[n];
 
