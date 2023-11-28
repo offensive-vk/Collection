@@ -1,5 +1,6 @@
-# Collection
-Practical and Curated Interview Questions.
+# 🌐 Collection
+* Practical and Curated Interview Questions.
+* Brought to you by Vedansh ✨ (me).
 
 ## @ C++
 > C++ is a high-level, general-purpose programming language first released in 1985 as an extension of the C programming language. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights. <br>
@@ -42,5 +43,7 @@ Practical and Curated Interview Questions.
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/cplusplus/cplusplus-original.svg" alt="cplusplus" width="150" height="150"/> </a>
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/java/java-original.svg" alt="java" width="150" height="150"/> </a>
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/python/python-original.svg" alt="python" width="150" height="150"/> </a>
-
+  
+## { [Collection](https://github.com/offensive-vk/Collection) by [Vedansh✨](https://github.com/offensive-vk) }
 </div>
+
