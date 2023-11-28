@@ -12,11 +12,14 @@ def canConstruct(letters, words):
 
 letters = "ABCDEFGH"
 words = ["ABC", "DEF", "GHI"]  # True
+print(canConstruct(letters, words))
 
 letters = "ABCD"
 words = ["ABCFG", "ABCDE", "EFGH"]  # False
+print(canConstruct(letters, words))
 
 letters = "ASDFG"
 words = ["ASD", "FG", "GFD"]  # False
+print(canConstruct(letters, words))
 
 print(canConstruct("abnnaan", "banana"))
