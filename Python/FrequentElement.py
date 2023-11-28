@@ -21,3 +21,13 @@ def find_most_frequent(nums):
             most_frequent_element = num
 
     return most_frequent_element
+
+# Example 1: Find the most frequent element in a list of integers
+nums = [1, 2, 3, 4, 1, 2, 1]
+most_frequent_element = find_most_frequent(nums)
+print("Most frequent element:", most_frequent_element)  # Output: 1
+
+# Example 2: Find the most frequent element in a list of strings
+words = ["apple", "banana", "orange", "apple", "grape"]
+most_frequent_word = find_most_frequent(words)
+print("Most frequent word:", most_frequent_word)  # Output: apple
