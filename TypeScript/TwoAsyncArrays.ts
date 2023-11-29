@@ -10,12 +10,8 @@
 function delay(ms: number) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-/**
- * 
- * @param first 
- * @param second 
- */
-async function AsyncIterate<Type1 extends Array<any>, Type2 extends Array<any>>(first: Type1, second: Type2) {
+
+async function AsyncIterate<Type1 extends Array<any>, Type2 extends Array<any>>(first: Type1, second: Type2): Promise<Record<string | number, Type2>> {
     
     // Checking for compatibility of both arrays.
     if (first.length !== second.length ) {
@@ -25,14 +21,20 @@ async function AsyncIterate<Type1 extends Array<any>, Type2 extends Array<any>>(
     console.log(`Type of First Array: ${Array.isArray(first) ? 'Array' : typeof first}`);
     console.log(`Type of Second Array: ${Array.isArray(second) ? 'Array' : typeof second}`);
 
+    const Result: Record<string | number, Type2> = {} as Record<string | number, Type2>;
+
     for (let value in first) {
-        console.log(`ID -> ${first[value]} : ${second[value]}`);
         await delay(1500);
+        Result[first[value]] = second[value];
+        console.log(`ID -> ${first[value]} : ${second[value]}`);
     }
+    console.dir(Result)
+    return Result;
 }
 
 /**@testing */
 const one = [1001, 1002, 1003, 1004, 1005];
 const two = ['Manish', 'Rupesh', 'Himanshu', 'Sourabh', 'Yogesh'];
 
-AsyncIterate(one, two);
+var S = AsyncIterate(one, two);
+console.log(S);
