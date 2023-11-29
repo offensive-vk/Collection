@@ -14,4 +14,14 @@ function mostFrequent(numbers: Array<number>): number {
     let maxCount = 0;
     let mostFrequent = 0;
 
+    for (const num of numbers) {
+        const count = (elementCounts.get(num) || 0) + 1;
+        elementCounts.set(num, count);
+
+        if(count > maxCount) {
+            maxCount = count;
+            mostFrequent = num;
+        }
+    }
+    return mostFrequent;
 }
