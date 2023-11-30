@@ -1,7 +1,14 @@
 /**
  * Write a function to generate all permutations of a given string.
+ * 
+ * @param input - The input string for which permutations need to be generated.
+ * @returns An array containing all possible permutations of the input string.
+ * @example
+ * const input = "abc";
+ * const permutations = generatePermutations(input);
+ * console.log(permutations);
+ * // Output: ["abc", "acb", "bac", "bca", "cab", "cba"]
  */
-
 function generatePermutations(input: string): string[] {
     const result: string[] = [];
 
