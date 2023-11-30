@@ -34,7 +34,7 @@ async function AsyncIterate<Type1 extends Array<any>, Type2 extends Array<any>>(
     for (let value in first) {
         await delay(1500);
         Result[first[value]] = second[value];
-        console.log(`ID -> ${first[value]} : ${second[value]}`);
+        console.log(`ID -> [${first[value]} : ${second[value]}]`);
     }
 
     return Result;
