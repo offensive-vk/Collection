@@ -1,0 +1,49 @@
+name: Custom Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - $default-branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'  # You can change this to the desired Node.js version
+
+      - name: Install Docker
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io
+
+      - name: Install npm
+        run: npm install -g npm@latest
+
+      - name: Run npm update
+        run: npm update
+
+      - name: Clear Cache and Orphan Processes
+        run: |
+          npm cache clean --force
+          npm prune --production
+
+      - name: Remove Installed Packages
+        run: npm ls -g --depth=0 | awk -F/ -v OFS=/ '$NF != "" {print $NF}' | xargs npm -g rm
+
+      - name: Remove Docker Images and Containers
+        run: |
+          docker system prune -af
+          
+      - name: Complete Job
+        run: echo "Job completed successfully!"
