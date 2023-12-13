@@ -53,7 +53,7 @@ template <typename T> auto FilterArray(const std::vector<T>& arr) -> SetArray<T>
 
 int main() {
     // Example usage
-    std::vector<int> inputArray = {3, "hello", true, 5.5, 42, "world", false};
+    std::vector<std::complex> inputArray = {3, "hello", true, 5.5, 42, "world", false};
     auto result = FilterArray(inputArray);
 
     // Print the result
