@@ -1,4 +1,9 @@
 // A Program to represent the concept of Stack.
+/**
+ * @type {T} Type of the stack.
+ * @see Stack Concept of DSA.
+ * @class Stack<T>
+ */
 class Stack<T> {
     private items: T[] = [];
 
