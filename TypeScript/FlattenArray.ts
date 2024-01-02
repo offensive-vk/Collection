@@ -3,3 +3,22 @@
  * @param arr Array to flatten
  * @returns a new array
  */
+function flattenArray(arr: any[]): any[] {
+    let flattened: any[] = [];
+
+    arr.forEach((item) => {
+        if (Array.isArray(item)) {
+            flattened = flattened.concat(flattenArray(item));
+        } else {
+            flattened.push(item);
+        }
+    });
+
+    return flattened;
+}
+
+// Example usage:
+const nestedArray = [1, [2, [3, 4], 5], 6, [7, 8]];
+const flattenedArray = flattenArray(nestedArray);
+
+console.log(flattenedArray);
