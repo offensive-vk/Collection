@@ -1,3 +1,7 @@
+/*
+ * Write a Java program that takes an integer 'T' as input, followed by 'T' sets of three integers 'a', 'b', and 'n'. The program should generate and print a series of numbers based on the following formula: 
+ * a + 2^0 * b, a + 2^0 * b + 2^1 * b, a + 2^0 * b + 2^1 * b + ... + 2^(n-1) * b
+ */
 package Java;
 import java.util.Scanner;
 
@@ -22,8 +26,3 @@ public class Series {
         sc.close();
 	}
 }
-/*
- * Write a Java program that takes an integer 'T' as input, followed by 'T' sets of three integers 'a', 'b', and 'n'. The program should generate and print a series of numbers based on the following formula: 
- * a + 2^0 * b, a + 2^0 * b + 2^1 * b, a + 2^0 * b + 2^1 * b + ... + 2^(n-1) * b
-
- */
