@@ -23,6 +23,7 @@ function fibonacci(n: number): number {
     return current;
 }
 
+
 // Example usage:
 const n = 7;
 const result = fibonacci(n);

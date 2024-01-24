@@ -1,5 +1,5 @@
 /**
- * Write a function to generate all permutations of a given string.
+ * Write a function that generates all possible permutations of a given string.
  * 
  * @param input - The input string for which permutations need to be generated.
  * @returns An array containing all possible permutations of the input string.

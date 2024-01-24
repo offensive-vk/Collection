@@ -1,21 +1,21 @@
 // 1. Linear Search:
-function linearSearch(Arr: number[], target: number): number {
-    for (let i = 0; i < Arr.length; i++) {
-        if (Arr[i] === target) {
+function linearSearch(arr: number[], target: number): number {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) {
             return i; // Return the index of the found element
         }
     }
     return -1; // Return -1 if the element is not found
 }
 //  2. Binary Search (for Sorted Arrays):
-function binarySearch(Arr: number[], target: number): number {
+function binarySearch(arr: number[], target: number): number {
     let left = 0;
-    let right = Arr.length - 1;
+    let right = arr.length - 1;
     while (left <= right) {
         const mid = Math.floor((left + right) / 2);
-        if (Arr[mid] === target) {
+        if (arr[mid] === target) {
             return mid; // Return the index of the found element
-        } else if (Arr[mid] < target) {
+        } else if (arr[mid] < target) {
             left = mid + 1;
         } else {
             right = mid - 1;
@@ -40,5 +40,3 @@ const foundValue = Arr.find((item) => item === 2);
 const foundIndex = Arr.findIndex((item) => item === 5);
 
 console.log(foundIndex, foundValue);
-
-// End 
