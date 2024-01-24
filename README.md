@@ -38,11 +38,7 @@ For Any Information About Contribution and Documentation of This Repo. <br>
 ## Languages You May Know ~
 <div align="center">
   
-`JavaScript` | 
-`TypeScript` | 
-`C++` | 
-`Java` | 
-`Python` 
+## `JavaScript` | `TypeScript` | `C++` | `Java` | `Python` 
 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
   <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/javascript/javascript-original.svg" alt="javascript" width="150" height="150"/>
