@@ -1,2 +1,2 @@
 **/*.json linguist-language=jsonc
-* -text
+* text=auto eol=lf
