@@ -1,5 +1,8 @@
 /**
- * create a happyBirthday function in JavaScript that takes a date as a parameter, checks if the current date is your birthday, and prints a birthday message or the remaining days until your next birthday. 
+ * Determines if a given number is prime.
+ *
+ * @param {number} num - The number to check for primality.
+ * @returns {boolean} - True if the number is prime, false otherwise.
  */
 function isPrime(num) {
     for (let i = 2; i <= Math.sqrt(num); i++) {

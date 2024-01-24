@@ -1,3 +1,9 @@
+/**
+ * Finds the least occurring character in a given string and returns its frequency.
+ *
+ * @param {string} inputString - The input string to search for the least occurring character.
+ * @returns {object} - An object containing the least occurring character and its frequency.
+ */
 function findLeastOccurringCharacter(inputString) {
     // Create a frequency map to count the occurrences of each character
     const charFrequency = new Map();

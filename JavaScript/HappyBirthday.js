@@ -1,3 +1,9 @@
+/**
+ * Calculates the remaining days until the next birthday and prints a message.
+ *
+ * @param {Date} birthDate - The birth date of the person.
+ * @returns {void}
+ */
 function happyBirthday(birthDate) {
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
@@ -17,14 +23,26 @@ function happyBirthday(birthDate) {
         console.log(remainingDaysMessage);
     }
 }
-
+/**
+ * Determines if today is the birthday based on the given birth date and current date.
+ *
+ * @param {Date} birthDate - The birth date of the person.
+ * @param {Date} currentDate - The current date.
+ * @returns {boolean} - True if today is the birthday, false otherwise.
+ */
 function isTodayBirthday(birthDate, currentDate) {
     return (
         birthDate.getDate() === currentDate.getDate() &&
         birthDate.getMonth() === currentDate.getMonth()
     );
 }
-
+/**
+ * Calculates the number of days until the next birthday.
+ *
+ * @param {Date} birthDate - The birth date of the person.
+ * @param {Date} currentDate - The current date.
+ * @returns {Object} - An object containing the number of years, months, and days until the next birthday.
+ */
 function calculateDaysUntilBirthday(birthDate, currentDate) {
     let nextBirthday = new Date(currentDate);
     nextBirthday.setFullYear(currentDate.getFullYear());
