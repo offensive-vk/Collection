@@ -2,6 +2,14 @@
 * Practical and Curated Interview Questions.
 * Brought to you by Vedansh ✨ (me).
 
+## 🧭 Quick Links and Navigation:
+For Any Information About Contribution and Documentation of This Repo. <br>
+### Please Refer to: 
+- [Documentation](https://github.com/offensive-vk/Collection/blob/master/.github/README.md) <br>
+- [Contribution Guidelines](https://github.com/offensive-vk/Collection/blob/master/.github/CONTRIBUTING.md) <br>
+- [Security Guidelines](https://github.com/offensive-vk/Collection/blob/master/.github/SECURITY.md) <br>
+- [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
+
 ## @ C++
 > C++ is a high-level, general-purpose programming language first released in 1985 as an extension of the C programming language. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights. <br>
 > - Multi-paradigm: procedural, imperative, functional, object-oriented, generic, modular. <br>
@@ -46,4 +54,3 @@
   
 ## { [Collection](https://github.com/offensive-vk/Collection) by [Vedansh✨](https://github.com/offensive-vk) }
 </div>
-
