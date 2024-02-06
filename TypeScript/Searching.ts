@@ -1,3 +1,6 @@
+/**
+ * Write two famous searching algorithm and show the usage with comparisons.
+ */
 // 1. Linear Search:
 function linearSearch(arr: number[], target: number): number {
     for (let i = 0; i < arr.length; i++) {
