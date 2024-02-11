@@ -8,48 +8,48 @@
 #include <algorithm>
 using namespace std;
 
-class Person{
+class Person {
     string name;
     int age;
     public:
-        void virtual getdata(){
+        void virtual getdata() {
             cin >> name >> age;
         }
-        void virtual putdata(){
+        void virtual putdata() {
             cout << name << " " << age << " ";
         }
 };
 
-class Professor: public Person{
+class Professor: public Person {
     int publications, id;
     static int t_id;
     public:
-        Professor(){
+        Professor() {
             id = ++t_id;
         }
-        void getdata(){
+        void getdata() {
             Person::getdata();
             cin >> publications;
         }
-        void putdata(){
+        void putdata() {
             Person::putdata();
             cout << publications << " " << id << endl;
         }
 };
 
-class Student: public Person{
+class Student: public Person {
     int marks[6], id;
     static int t_id;
 public:
-    Student(){
+    Student() {
         id = ++t_id;
     }
-    void getdata(){
+    void getdata() {
         Person::getdata();
         for(int i = 0; i < 6; i++)
             cin >> marks[i];
     }
-    void putdata(){
+    void putdata() {
         Person::putdata();
         int total = marks[0];
 

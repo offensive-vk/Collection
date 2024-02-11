@@ -26,8 +26,8 @@ function mostFrequent(numbers: Array<number>): number {
     return mostFrequent;
 }
 
-const Arr: Array<number> = [10,20, 20, 70, 90, 55, 10, 20, 90];
-const Result: number = mostFrequent(Arr);
+const arr: Array<number> = [10,20, 20, 70, 90, 55, 10, 20, 90];
+const Result: number = mostFrequent(arr);
 
 console.log(`Most Frequent Element : ${Result}`);
 export { };
