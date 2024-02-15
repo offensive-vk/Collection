@@ -2,6 +2,14 @@
 * Practical and Curated Interview Questions.
 * Brought to you by Vedansh ✨ (me).
 
+## 🧭 Quick Links and Navigation:
+For Any Information About Contribution and Documentation of This Repo. <br>
+### Please Refer to: 
+- [Documentation 📖](https://github.com/offensive-vk/Collection/blob/master/.github/README.md) <br>
+- [Contribution Guidelines ✨](https://github.com/offensive-vk/Collection/blob/master/.github/CONTRIBUTING.md) <br>
+- [Security Guidelines ⚠️](https://github.com/offensive-vk/Collection/blob/master/.github/SECURITY.md) <br>
+- [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
+
 ## @ C++
 > C++ is a high-level, general-purpose programming language first released in 1985 as an extension of the C programming language. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights. <br>
 > - Multi-paradigm: procedural, imperative, functional, object-oriented, generic, modular. <br>
@@ -30,11 +38,7 @@
 ## Languages You May Know ~
 <div align="center">
   
-`JavaScript` | 
-`TypeScript` | 
-`C++` | 
-`Java` | 
-`Python` 
+## `JavaScript` | `TypeScript` | `C++` | `Java` | `Python` 
 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
   <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/javascript/javascript-original.svg" alt="javascript" width="150" height="150"/>
@@ -46,4 +50,3 @@
   
 ## { [Collection](https://github.com/offensive-vk/Collection) by [Vedansh✨](https://github.com/offensive-vk) }
 </div>
-
