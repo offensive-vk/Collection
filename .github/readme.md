@@ -9,10 +9,10 @@ For Any Information About Contribution and Documentation of This Repository. <br
 
 ### Please Refer to
 
-- [Documentation 📖](https://github.com/offensive-vk/Collection/blob/master/.github/README.md) <br>
-* [Contribution Guidelines ✨](https://github.com/offensive-vk/Collection/blob/master/.github/CONTRIBUTING.md) <br>
-* [Security Guidelines ⚠️](https://github.com/offensive-vk/Collection/blob/master/.github/SECURITY.md) <br>
-* [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
+* [Documentation 📖](https://github.com/offensive-vk/Collection/blob/master/.github/README.md)
+* [Contribution Guidelines ✨](https://github.com/offensive-vk/Collection/blob/master/.github/CONTRIBUTING.md)
+* [Security Guidelines ⚠️](https://github.com/offensive-vk/Collection/blob/master/.github/SECURITY.md)
+* [Author 🧑‍💻](https://github.com/offensive-vk/)
 
 ## @ C++
 >
