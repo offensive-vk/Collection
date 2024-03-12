@@ -1,4 +1,5 @@
 # Finds the one unique value from list of numbers.
+
 def find_unique_value(numbers):
     occurrences = {}
 

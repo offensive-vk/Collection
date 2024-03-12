@@ -1,6 +1,5 @@
 /**
  * Write a C++ program that does the following:
-
  * A function that takes an array or vector as param and shuffles it.
  * Another function that takes an array or vector as param and the sum of second last element and second element from beginning is equal to the middle most element of the array
 */

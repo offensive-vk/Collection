@@ -28,3 +28,4 @@ function fibonacci(n: number): number {
 const n = 7;
 const result = fibonacci(n);
 console.log(`The ${n}th Fibonacci number is: ${result}`);
+export {}
