@@ -61,5 +61,5 @@ function calculateDaysUntilBirthday(birthDate, currentDate) {
 }
 
 // Example usage
-const myBirthDate = new Date("2000-11-16"); // Replace with your actual birth date
+const myBirthDate = new Date("2000-01-01"); // Replace with your actual birth date
 happyBirthday(myBirthDate);

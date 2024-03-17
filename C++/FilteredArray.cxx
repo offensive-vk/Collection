@@ -2,6 +2,7 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+#include <complex>
 
 /**
  * @brief Global Type Helper for Function and Set

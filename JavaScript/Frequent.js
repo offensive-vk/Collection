@@ -4,9 +4,8 @@
 /**
  * Find the most frequent element in an array.
  *
- * @param {Array} numbers - The array of numbers to search.
- * @returns {number|null} - The most frequent element in the array, or null if the array is empty.
- *
+ * @param {Array} numbers  The array of numbers to search.
+ * @returns {number|null}  The most frequent element in the array, or null if the array is empty.
  * @example
  * mostFrequentElement([1, 2, 2, 3, 4, 2]);
  *

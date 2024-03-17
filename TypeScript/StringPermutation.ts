@@ -30,6 +30,6 @@ function generatePermutations(input: string): string[] {
 }
 
 // Example usage:
-const inputString = "xyz";
-const permutations = generatePermutations(inputString);
+const input = "xyz";
+const permutations = generatePermutations(input);
 console.log(permutations);

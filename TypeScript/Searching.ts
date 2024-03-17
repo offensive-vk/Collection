@@ -27,19 +27,8 @@ function binarySearch(arr: number[], target: number): number {
     return -1; // Return -1 if the element is not found
 }
 
-// 3. Array Methods (indexOf, includes, find, findIndex):
-const Arr = [1, 2, 3, 4, 5];
+// Usage
+var arr = [65,72,81,0, 10, 100];
+binarySearch(arr, 0);
+linearSearch(arr, 100);
 
-// indexOf: Returns the index of the first occurrence of an element, or -1 if not found
-const index = Arr.indexOf(3);
-
-// includes: Returns true if an element is found in the array, false otherwise
-const hasValue = Arr.includes(4);
-
-// find: Returns the first element that satisfies a condition, or undefined if not found
-const foundValue = Arr.find((item) => item === 2);
-
-// findIndex: Returns the index of the first element that satisfies a condition, or -1 if not found
-const foundIndex = Arr.findIndex((item) => item === 5);
-
-console.log(foundIndex, foundValue);
