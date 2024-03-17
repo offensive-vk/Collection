@@ -1,11 +1,11 @@
 {
     "name": "Collection",
-    "version": "10.0.1",
+    "version": "10.0.0",
     "author": "Vedansh Khandelwal <https://github.com/offensive-vk/>",
     "main": "",
     "homepage": "https://github.com/offensive-vk/Collection/",
     "private": false,
-    "packageManager": "npm@10.1.0",
+    "packageManager": "npm@10.0.0",
     "license": "ISC",
     "scripts": {
         "start": "",

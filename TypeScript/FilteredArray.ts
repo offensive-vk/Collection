@@ -1,14 +1,4 @@
 /**
- * Create an function that takes an array of any data  type as input and does the following:
-    Checks how many elements of different data types are present in the given array.
-    If the length of the array is less than equal to the 3 then it should return an Array of Parameters. (1D)
-    Returns different arrays for different elements of diff data types. And Any Array cannot contain duplicate values
-    one for numbers : sorted in ascending order
-    one for boolean numbers 
-    one for string numbers
-    one for others that can't be determined
- */
-/**
  *  * Create a function that takes an array of any data type as input and categorizes the elements into different arrays based on their data type.
  * It returns these arrays as a set, with each array containing elements of a specific data type.
  * If the length of the input array is less than or equal to 3, the function returns the input array as is.

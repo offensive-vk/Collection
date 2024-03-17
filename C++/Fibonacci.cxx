@@ -2,21 +2,21 @@
 using namespace std;
 int main()
 {
-    int range, first = 0, second = 1, fibonicci = 0;
+    int range, first = 0, second = 1, fibonacci = 0;
     cout << "Enter Range for Terms of Fibonacci Sequence: ";
     cin >> range;
-    cout << "Fibonicci Series upto " << range << " Terms " << endl;
+    cout << "Fibonacci Series upto " << range << " Terms " << endl;
     for (int c = 0; c < range; c++)
     {
         if (c <= 1)
-            fibonicci = c;
+            fibonacci = c;
         else
         {
-            fibonicci = first + second;
+            fibonacci = first + second;
             first = second;
-            second = fibonicci;
+            second = fibonacci;
         }
-        cout << fibonicci << " ";
+        cout << fibonacci << " ";
     }
     return 0;
 }
