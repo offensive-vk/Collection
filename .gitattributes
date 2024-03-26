@@ -1,2 +1,9 @@
+# =================================
+# ** DO NOT MODIFY THIS FILE **
 **/*.json linguist-language=jsonc
 * text=auto eol=lf
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+*.md linguist-language=Markdown
+# ** DO NOT MODIFY THIS FILE **
+# =================================

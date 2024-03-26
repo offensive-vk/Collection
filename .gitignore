@@ -1,6 +1,8 @@
+# =========
 node_modules
 *.exe
 *.out
 test/
 .vscode/
 dist/
+# =========
