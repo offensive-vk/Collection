@@ -18,7 +18,7 @@ For Any Information About Contribution and Documentation of This Repository.
 * [Security Guidelines ⚠️](https://github.com/offensive-vk/Collection/blob/master/.github/security.md)
 * [Author 🧑‍💻](https://github.com/offensive-vk/)
 * [Pull Request Template](https://github.com/offensive-vk/Collection/blob/master/.github/pull_request_template.md)
-* [Licensing](https://github.com/offensive-vk/Collection/blob/master/LICENSE)
+* [Licensing](https://github.com/offensive-vk/Collection/blob/master/license)
 
 ## @ C++
 >
