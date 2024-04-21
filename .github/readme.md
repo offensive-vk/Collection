@@ -18,6 +18,7 @@ For Any Information About Contribution and Documentation of This Repository.
 * [Security Guidelines ⚠️](https://github.com/offensive-vk/Collection/blob/master/.github/security.md)
 * [Author 🧑‍💻](https://github.com/offensive-vk/)
 * [Pull Request Template](https://github.com/offensive-vk/Collection/blob/master/.github/pull_request_template.md)
+* [Licensing](https://github.com/offensive-vk/Collection/blob/master/LICENSE)
 
 ## @ C++
 >
@@ -74,7 +75,7 @@ For Any Information About Contribution and Documentation of This Repository.
 
 <p align="center">
   <i>&copy; <a href="https://github.com/offensive-vk/">Vedansh </a> 2023 - Present</i><br>
-  <i>Licensed under <a href="https://mit-license.org/">MIT</a></i><br>
+  <i>Licensed under <a href="">GPL-2.0 </a></i><br>
   <a href="https://github.com/npm-run-test"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
