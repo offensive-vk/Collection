@@ -3,6 +3,7 @@ node_modules
 *.exe
 *.out
 test/
+tests/
 .vscode/
 dist/
 # =========

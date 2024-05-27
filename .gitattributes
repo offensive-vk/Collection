@@ -4,6 +4,7 @@
 * text=auto eol=lf
 *.md linguist-detectable=true
 *.md linguist-documentation=false
-*.md linguist-language=Markdown
+*.yml linguist-detectable=true
+*.yml linguist-documentation=false
 # ** DO NOT MODIFY THIS FILE **
 # =================================
